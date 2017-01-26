@@ -1,2 +1,2 @@
 # Web-Development
-I am learning web-Development by building a few websites.
+I am learning Web-Development by building a few websites.
