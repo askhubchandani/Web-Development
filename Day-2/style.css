@@ -1,48 +1,183 @@
-#time {
-	font-size: 10em;
-	font-family: 'Quicksand', sans-serif;
-	text-align: center;
-	color: white;
-	vertical-align: center;
-	margin-top: 20%;
+body {
+	width: 1000px;
+	margin: 0 auto;
 }
-.sunrise {
-background: rgb(30,87,153); /* Old browsers */
-background: -moz-linear-gradient(top, rgba(30,87,153,1) 0%, rgba(32,124,202,1) 25%, rgba(109,173,191,1) 62%, rgba(255,202,94,1) 85%, rgba(252,93,93,1) 100%, rgba(255,170,0,1) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,1)), color-stop(25%,rgba(32,124,202,1)), color-stop(62%,rgba(109,173,191,1)), color-stop(85%,rgba(255,202,94,1)), color-stop(100%,rgba(252,93,93,1)), color-stop(100%,rgba(255,170,0,1))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(32,124,202,1) 25%,rgba(109,173,191,1) 62%,rgba(255,202,94,1) 85%,rgba(252,93,93,1) 100%,rgba(255,170,0,1) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(32,124,202,1) 25%,rgba(109,173,191,1) 62%,rgba(255,202,94,1) 85%,rgba(252,93,93,1) 100%,rgba(255,170,0,1) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(32,124,202,1) 25%,rgba(109,173,191,1) 62%,rgba(255,202,94,1) 85%,rgba(252,93,93,1) 100%,rgba(255,170,0,1) 100%); /* IE10+ */
-background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(32,124,202,1) 25%,rgba(109,173,191,1) 62%,rgba(255,202,94,1) 85%,rgba(252,93,93,1) 100%,rgba(255,170,0,1) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#ffaa00',GradientType=0 ); /* IE6-9 */
+#box1 { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: #66A3D2;
+	transition: background-color 3s ease;
 }
-.noon {
-background: rgb(30,87,153); /* Old browsers */
-background: -moz-linear-gradient(top, rgba(30,87,153,1) 0%, rgba(32,124,202,1) 21%, rgba(109,173,191,1) 38%, rgba(255,202,94,1) 59%, rgba(232,143,0,1) 91%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,1)), color-stop(21%,rgba(32,124,202,1)), color-stop(38%,rgba(109,173,191,1)), color-stop(59%,rgba(255,202,94,1)), color-stop(91%,rgba(232,143,0,1))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(32,124,202,1) 21%,rgba(109,173,191,1) 38%,rgba(255,202,94,1) 59%,rgba(232,143,0,1) 91%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(32,124,202,1) 21%,rgba(109,173,191,1) 38%,rgba(255,202,94,1) 59%,rgba(232,143,0,1) 91%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(32,124,202,1) 21%,rgba(109,173,191,1) 38%,rgba(255,202,94,1) 59%,rgba(232,143,0,1) 91%); /* IE10+ */
-background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(32,124,202,1) 21%,rgba(109,173,191,1) 38%,rgba(255,202,94,1) 59%,rgba(232,143,0,1) 91%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#e88f00',GradientType=0 ); /* IE6-9 */
+#box1:hover {
+	background-color: white;
 }
-.sunset {
-background: rgb(1,21,63); /* Old browsers */
-background: -moz-linear-gradient(top, rgba(1,21,63,1) 4%, rgba(6,113,201,1) 33%, rgba(47,158,188,1) 62%, rgba(244,163,19,1) 83%, rgba(212,74,61,1) 95%, rgba(165,61,115,1) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(4%,rgba(1,21,63,1)), color-stop(33%,rgba(6,113,201,1)), color-stop(62%,rgba(47,158,188,1)), color-stop(83%,rgba(244,163,19,1)), color-stop(95%,rgba(212,74,61,1)), color-stop(100%,rgba(165,61,115,1))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top, rgba(1,21,63,1) 4%,rgba(6,113,201,1) 33%,rgba(47,158,188,1) 62%,rgba(244,163,19,1) 83%,rgba(212,74,61,1) 95%,rgba(165,61,115,1) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top, rgba(1,21,63,1) 4%,rgba(6,113,201,1) 33%,rgba(47,158,188,1) 62%,rgba(244,163,19,1) 83%,rgba(212,74,61,1) 95%,rgba(165,61,115,1) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top, rgba(1,21,63,1) 4%,rgba(6,113,201,1) 33%,rgba(47,158,188,1) 62%,rgba(244,163,19,1) 83%,rgba(212,74,61,1) 95%,rgba(165,61,115,1) 100%); /* IE10+ */
-background: linear-gradient(to bottom, rgba(1,21,63,1) 4%,rgba(6,113,201,1) 33%,rgba(47,158,188,1) 62%,rgba(244,163,19,1) 83%,rgba(212,74,61,1) 95%,rgba(165,61,115,1) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01153f', endColorstr='#a53d73',GradientType=0 ); /* IE6-9 */
+#box2 { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	left: 200px;
+	top: -200px;
+	background: #3F92D2;
+	transition: background-color 3s ease;
 }
-.night {
-background: rgb(5,15,43); /* Old browsers */
-background: -moz-linear-gradient(top, rgba(5,15,43,1) 7%, rgba(60,71,112,1) 51%, rgba(147,95,122,1) 76%, rgba(0,18,62,1) 92%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(7%,rgba(5,15,43,1)), color-stop(51%,rgba(60,71,112,1)), color-stop(76%,rgba(147,95,122,1)), color-stop(92%,rgba(0,18,62,1))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top, rgba(5,15,43,1) 7%,rgba(60,71,112,1) 51%,rgba(147,95,122,1) 76%,rgba(0,18,62,1) 92%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top, rgba(5,15,43,1) 7%,rgba(60,71,112,1) 51%,rgba(147,95,122,1) 76%,rgba(0,18,62,1) 92%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top, rgba(5,15,43,1) 7%,rgba(60,71,112,1) 51%,rgba(147,95,122,1) 76%,rgba(0,18,62,1) 92%); /* IE10+ */
-background: linear-gradient(to bottom, rgba(5,15,43,1) 7%,rgba(60,71,112,1) 51%,rgba(147,95,122,1) 76%,rgba(0,18,62,1) 92%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#050f2b', endColorstr='#00123e',GradientType=0 ); /* IE6-9 */
+#box2:hover {
+	background-color: white;
+}
+#box3 { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	left: 400px;
+	top: -400px;
+	background: #033E6B;
+	transition: background-color 3s ease;
+}
+#box3:hover {
+	background-color: white;
+}
+
+#box4 { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	left: 600px;
+	top: -600px;
+	background: #25567B;
+	transition: background-color 3s ease;
+}
+#box4:hover {
+	background-color: white;
+}
+#box5 { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	left: 800px;
+	top: -800px;
+	background: #0B61A4;
+	transition: background-color 3s ease;
+}
+#box5:hover {
+	background-color: white;
+}
+
+#box6 { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	top: -800px;
+	background: #61D7A4;
+	transition: background-color 3s ease;
+}
+#box6:hover {
+	background-color: white;
+}
+
+#box7 { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	top: -1000px;
+	left: 200px;
+	background: #36D792;
+	transition: background-color 3s ease;
+}
+#box7:hover {
+	background-color: white;
+}
+#box8 { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	top: -1200px;
+	left: 400px;
+	background: #007241;
+	transition: background-color 3s ease;
+}
+#box8:hover {
+	background-color: white;
+}
+#box9 { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	top: -1400px;
+	left: 600px;
+	background: #218359;
+	transition: background-color 3s ease;
+}
+#box9:hover {
+	background-color: white;
+}
+#box10 { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	top: -1600px;
+	left: 800px;
+	background: #00AF64;
+	transition: background-color 3s ease;
+}
+#box10:hover {
+	background-color: white;
+}
+#box11 { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	top: -1600px;
+	background: #FFC373;
+	transition: background-color 3s ease;
+}
+#box11:hover {
+	background-color: white;
+}
+#box12 { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	top: -1800px;
+	left: 200px;
+	background: #FFAD40;
+	transition: background-color 3s ease;
+}
+#box12:hover {
+	background-color: white;
+}
+#box13 { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	top: -2000px;
+	left: 400px;
+	background: #A65F00;
+	transition: background-color 3s ease;
+}
+#box13:hover {
+	background-color: white;
+}
+#box14 { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	top: -2200px;
+	left: 600px;
+	background: #BF8230;
+	transition: background-color 3s ease;
+}
+#box14:hover {
+	background-color: white;
+}
+#box15 { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	top: -2400px;
+	left: 800px;
+	background: #FF9200;
+	transition: background-color 3s ease;
+}
+#box15:hover {
+	background-color: white;
 }
