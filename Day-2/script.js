@@ -2,10 +2,7 @@ $(function(){
     var box1hover     = $('#box1');
         var box1audio = box1hover.find('audio')[0];
     box1hover.hover(function(){
-       box1audio.play();
-    }, function(){
-       box1audio.stop();
-    });
+       box1audio.play();    }, );
 });
 $(function(){
     var box2hover     = $('#box2');
