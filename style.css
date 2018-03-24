@@ -1,13 +1,13 @@
 /* Main */
 
 * {
-	margin: 10px;
-	padding: 10px;
-	border: 10px;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
 }
 
 body {
-	background: #118fd8;
+	background: #383838;
 	font-family: 'Open Sans', arial, sans-serif;
 }
 
@@ -24,7 +24,7 @@ a {
     width: 100%;
     height: 1px;
     margin: 10px 0;
-    background: #444;
+    background: #2c2c2c;
 }
 
 .fade-in{
@@ -108,7 +108,7 @@ a {
 /* Banner Section Styling */
 
 #banner {
-    background: #118fd8;
+    background: #383838;
 }
 
 #banner .img {
@@ -119,7 +119,7 @@ a {
 
 #main {
     padding: 80px 0;
-    background: #118fd8;
+    background: #383838;
 }
 
 #main h1 {
@@ -133,7 +133,7 @@ a {
     width: 20%;
     margin: 0 auto 26px auto;
     height: 4px;
-    background: #1e90ff;
+    background: #119fd8;
     border: none;
 }
 
