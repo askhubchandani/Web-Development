@@ -7,7 +7,7 @@
 }
 
 body {
-	background: #119fd8;
+	background: #118fd8;
 	font-family: 'Open Sans', arial, sans-serif;
 }
 
@@ -108,18 +108,18 @@ a {
 /* Banner Section Styling */
 
 #banner {
-    background: #119fd8;
+    background: #118fd8;
 }
 
 #banner .img {
-    max-width: 25%;
+    max-width: 5%;
 }
 
 /* Main Section Stling */
 
 #main {
     padding: 80px 0;
-    background: #119fd8;
+    background: #118fd8;
 }
 
 #main h1 {
@@ -146,7 +146,7 @@ a {
 
 #list {
     padding: 70px 0;
-    background: #119fd8;
+    background: #150fd8;
 }
 
 #list h2 {
@@ -174,7 +174,7 @@ a {
     flex: 0 0 29%;
     margin: 18px 0;
     padding: 40px 0;
-    background: #119fd8;
+    background: #150fd8;
     -webkit-transition: ease-in .4s;
        -moz-transition: ease-in .4s;
          -o-transition: ease-in .4s;
@@ -182,7 +182,7 @@ a {
 }
 
 #list #challenges div:hover {
-    background: #120fd8;
+    background: #150fd8;
     transform: scale(1.07);
 }
 
@@ -199,7 +199,7 @@ a {
     font-family: 'Open Sans', arial, sans-serif;
     font-weight: 400;
     font-style: italic;
-    color: #120fd8;
+    color: #150fd8;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -241,7 +241,7 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background: #121fd8;
+    background: #070707;
 }
 
 footer p {
