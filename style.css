@@ -105,15 +105,6 @@ a {
   }
 }
 
-/* Banner Section Styling */
-
-#banner {
-    background: #383838;
-}
-
-#banner .img {
-    max-width: 5%;
-}
 
 /* Main Section Stling */
 
@@ -133,7 +124,7 @@ a {
     width: 20%;
     margin: 0 auto 26px auto;
     height: 4px;
-    background: #119fd8;
+    background: #2c2c2c;
     border: none;
 }
 
@@ -146,7 +137,7 @@ a {
 
 #list {
     padding: 70px 0;
-    background: #150fd8;
+    background: #111111;
 }
 
 #list h2 {
@@ -174,7 +165,7 @@ a {
     flex: 0 0 29%;
     margin: 18px 0;
     padding: 40px 0;
-    background: #150fd8;
+    background: #111111;
     -webkit-transition: ease-in .4s;
        -moz-transition: ease-in .4s;
          -o-transition: ease-in .4s;
@@ -182,7 +173,7 @@ a {
 }
 
 #list #challenges div:hover {
-    background: #150fd8;
+    background: #1111111;
     transform: scale(1.07);
 }
 
