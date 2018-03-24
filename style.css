@@ -7,7 +7,7 @@
 }
 
 body {
-	background: #119fd8;
+	background: #383838;
 	font-family: 'Open Sans', arial, sans-serif;
 }
 
@@ -110,7 +110,7 @@ a {
 
 #main {
     padding: 80px 0;
-    background: #2c2c2c;
+    background: #119fd8;
 }
 
 #main h1 {
@@ -165,7 +165,7 @@ a {
     flex: 0 0 29%;
     margin: 18px 0;
     padding: 40px 0;
-    background: #ffffff;
+    background: #000000;
     -webkit-transition: ease-in .4s;
        -moz-transition: ease-in .4s;
          -o-transition: ease-in .4s;
@@ -173,7 +173,7 @@ a {
 }
 
 #list #challenges div:hover {
-    background: #ffffff;
+    background: #000000;
     transform: scale(1.07);
 }
 
@@ -183,6 +183,7 @@ a {
     font-weight: 400;
     margin-bottom: 18px;
     text-transform: uppercase;
+    color: #ffffff;
 }
 
 #list #challenges a {
@@ -190,7 +191,7 @@ a {
     font-family: 'Open Sans', arial, sans-serif;
     font-weight: 400;
     font-style: italic;
-    color: #111111;
+    color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -232,7 +233,7 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background: #111111;
+    background: #000000;
 }
 
 footer p {
@@ -262,11 +263,11 @@ footer ul li {
 }
 
 footer ul li a {
-    color: #2c2c2c;
+    color: #ffffff;
 }
 
 footer ul li a:hover {
-    color: #383838;
+    color: #ffffff;
 }
 
 @media screen and (max-width: 720px) {
