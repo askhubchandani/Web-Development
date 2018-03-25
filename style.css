@@ -173,7 +173,7 @@ a {
 }
 
 #list #challenges div:hover {
-    background: #ffffff;
+    background: #000000;
     transform: scale(1.07);
 }
 
