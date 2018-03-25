@@ -1,1 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Google Search - Clone</title>
+    <meta name="description" content="A simple Google Search clone page.">
+    <meta name="keywords" content="Google, Google Search, Google Search Front-End, Google Clone, Google Search Clone, Adarsh Khubchandani, Portfolio">
+    <link rel="image_src" href="images/logo.png">
+    <link rel="icon" type="image/png" href="images/favicon.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="images/favicon.png" sizes="16x16">
+    <meta name="theme-color" content="#f0f0f0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+<!-- Grid Container -->
+<section id="container">
+
+<!-- Navigation -->
+    <nav id="navigation">
+        <div class="lg-show">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Store</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li><a href="#">Gmail</a></li>
+                <li><a href="#">Images</a></li>
+                <li><a href="#apps" class="apps-list"><i class="fa fa-th"></i></a></li>
+                <li><a href="#notif" class="notification-btn"><i class="fa fa-bell"></i></a></li>
+                <li><a href="#user" class="user-acc-btn"><i class="fa fa-user-circle"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+<!-- Apps List Pop-Up -->
+
+<section id="apps">
+    <div class="flex-apps">
+        <div>
+            <img src="images/app-1.png" alt="">
+            <p>My Account</p>
+        </div>
+        <div>
+            <img src="images/app-2.png" alt="">
+            <p>Search</p>
+        </div>
+        <div>
+            <img src="images/app-3.png" alt="">
+            <p>Play</p>
+        </div>
+        <div>
+            <img src="images/app-4.png" alt="">
+            <p>Gmail</p>
+        </div>
+        <div>
+            <img src="images/app-5.png" alt="">
+            <p>Drive</p>
+        </div>
+        <div>
+            <img src="images/app-6.png" alt="">
+            <p>Photos</p>
+        </div>
+        <div>
+            <img src="images/app-7.png" alt="">
+            <p>Translate</p>
+        </div>
+        <div>
+            <img src="images/app-8.png" alt="">
+            <p>Hangouts</p>
+        </div>
+        <div>
+            <img src="images/app-9.png" alt="">
+            <p>Inbox</p>
+        </div>
+    </div>
+    <a href="#">More</a>
+</section>
+
+<!-- Notifications Pop-Up -->
+
+<section id="notif">
+    <div class="flex-notif">
+        <div>
+            <a href="#" class="setting-cog" title="Settings"><i class="fa fa-cog"></i></a>
+        </div>
+        <div>
+            <p class="logo-name">Google</p>
+        </div>
+    </div>
+    <div class="main-notif">
+        <p>All caught up!</p>
+    </div>
+    <a href="#" class="notif-btn" title="More Notification from Photos and G+"><i class="fa fa-chevron-up"></i></a>
+</section>
+
+<!-- User Account Pop-Up -->
+
+<section id="user">
+    <div class="flex-user">
+        <div class="user-avatar">
+            <a href="#">Change</a>
+        </div>
+        <div class="user-credentials">
+            <h2>Amit H.</h2>
+            <p class="user-email">amit@gmail.com</p>
+            <p><a href="#">Google+ Profile</a> - <a href="#">Privacy</a></p>
+            <a href="#">My Account</a>
+        </div>
+    </div>
+    <div class="flex-other-user">
+        <div>
+            <a href="#"><i class="fa fa-user-circle"></i></a>
+        </div>
+        <div>
+            <h2>Priyanka Bhat</h2>
+            <p>priyanka@gmail.com</p>
+        </div>
+    </div>
+    <div class="user-options">
+        <div>
+            <a href="#">Add account</a>
+        </div>
+        <div>
+            <a href="#">Sign out</a>
+        </div>
+    </div>
+</section>
+
+<!-- Search -->
+    <section id="search">
+        <img src="images/logo.png" title="Google" alt="Google"><br>
+        <input type="text" name="search" class="input">
+        <div class="search-btn">
+            <a href="#">Google Search</a>
+            <a href="#">I'm Feeling Lucky</a>
+        </div>
+        <p class="g-versions">Google offered in: <a href="#" title="Armenian Language">हिन्दी</a><a href="#" title="English Language">English</a></p>
+    </section>
+
+<!-- Footer -->
+    <footer id="country">
+        <p>India</p>
+    </footer>
+    <footer id="footer">
+        <div>
+            <ul>
+                <li><a href="#">Advertising</a></li>
+                <li><a href="#">Business</a></li>
+            </ul>
+        </div>
+        <div class="sm-show">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Store</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#settings" class="settings-btn">Settings</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Settings Pop-Up -->
+
+    <section id="settings">
+        <ul>
+            <li><a href="#">Search settings</a></li>
+            <li><a href="#">Advanced search</a></li>
+            <li><a href="#">History</a></li>
+            <li><a href="#">Search Help</a></li>
+            <li><a href="#">Send feedback</a></li>
+        </ul>
+    </section>
+
+</section>
+
+</body>
+</html>
