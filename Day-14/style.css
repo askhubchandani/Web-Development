@@ -243,9 +243,11 @@ h1 .bold {
     background-size: cover;
     background-attachment: fixed;
     height: 600px;
-    padding: 150px 0;
+    padding: 0 0;
     display: flex;
     justify-content: flex-end;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 #banner .intro {
@@ -254,7 +256,7 @@ h1 .bold {
     width: 450px;
     height: 200px;
     margin-top: 30px;
-    margin-right: 140px;
+    margin-bottom: 30px;
 }
 
 #banner .intro h1 {
@@ -268,7 +270,7 @@ h1 .bold {
     text-align: justify;
     font-size: 27px;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    margin-left: 75px;
+    
 }
 
 /* Products Section Styling */
