@@ -240,7 +240,6 @@ h1 .bold {
 /* Intro Banner Section Styling */
 
 #banner {
-    background: url(../images/banner.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     height: 600px;
