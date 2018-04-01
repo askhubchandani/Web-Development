@@ -155,14 +155,16 @@
 .footer {
   font-face: arial;
   font-size: 15px;
-  position: absolute;
+  position: bottom;
   border-top: 1px solid black;
   bottom: 20px;
   width: 100%;
   min-width: 350px;
   padding: 1em 1em 0em 1em;
+  display: flex;
 }
 .footer-logos {
+  display: flex;
   margin-top: -1em;
   font-size: 10px;
 }
