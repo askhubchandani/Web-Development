@@ -199,7 +199,7 @@ hr  {
 
 #header {
     text-align: center;
-    background: url(../images/banner.jpg) center no-repeat;
+    background-image: url(images/banner.jpg) center no-repeat;
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
