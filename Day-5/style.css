@@ -69,7 +69,7 @@ body {
       word-wrap: normal;
       position: relative;
 }
-      header .error{
+      header .error {
         font-size: 12px;
         text-align: center;
         background: #ff0000;
@@ -91,9 +91,9 @@ body {
         min-height: 60px;
         position: relative;
         overflow-x: hidden;
-        &.small-font;
+        &.small-font {
           font-size: 30px;
-}
+       }  }
     body{
       display: flex;
       flex-wrap: wrap;
@@ -115,10 +115,9 @@ body {
         cursor: pointer;
         transition: all 0.2s;
         user-select: none;
-        &.operator
-          font-size: 32px;
-}
-
+        &.operator {
+          font-size: 32px; 
+ } }
 @media(max-width: 1020px)
   header,  h1 {
       display: none;
