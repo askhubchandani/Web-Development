@@ -110,7 +110,7 @@ a {
 
 #main {
     padding: 80px 0;
-    background: #119fd8;
+     background: linear-gradient(45deg, #2ecc7, #3498db);
 }
 
 #main h1 {
@@ -233,23 +233,23 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background: #000000;
+    background: linear-gradient(45deg, #2ecc7, #3498db);
 }
 
 footer p {
     font-size: 19px;
     font-family: 'Open Sans', arial, sans-serif;
     font-weight: 400;
-    color: #ffffff;
+    color: #000000;
 }
 
 footer p a {
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
 }
 
 footer p a:hover {
-    color: #ffffff;
+    color: #000000;
 }
 
 footer ul {
@@ -263,11 +263,11 @@ footer ul li {
 }
 
 footer ul li a {
-    color: #ffffff;
+    color: #000000;
 }
 
 footer ul li a:hover {
-    color: #ffffff;
+    color: #000000;
 }
 
 @media screen and (max-width: 720px) {
