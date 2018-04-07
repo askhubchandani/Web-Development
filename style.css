@@ -7,7 +7,7 @@
 }
 
 body {
-	background: #2ecc7;
+	 background: linear-gradient(45deg, #2ecc71, #3498db);
 	font-family: 'Open Sans', arial, sans-serif;
 }
 
@@ -110,7 +110,7 @@ a {
 
 #main {
     padding: 80px 0;
-     background: #2ecc7;
+     background: linear-gradient(45deg, #2ecc71, #3498db);
 }
 
 #main h1 {
@@ -233,7 +233,7 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background: linear-gradient(45deg, #2ecc7, #3498db);
+    background: linear-gradient(45deg, #2ecc71, #3498db);
 }
 
 footer p {
