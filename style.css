@@ -7,7 +7,7 @@
 }
 
 body {
-	background: #383838;
+	background: linear-gradient(45deg, #2ecc7, #3498db);
 	font-family: 'Open Sans', arial, sans-serif;
 }
 
